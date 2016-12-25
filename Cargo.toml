@@ -1,0 +1,16 @@
+[package]
+authors = ["David Flemström <david.flemstrom@gmail.com>"]
+build = "build.rs"
+name = "marble"
+version = "0.1.0"
+
+[build-dependencies]
+vulkano-shaders = "0.3.1"
+
+[dependencies]
+cgmath = "0.12.0"
+error-chain = "0.7.1"
+time = "0.1.35"
+vulkano = "0.3.1"
+vulkano-win = "0.3.1"
+winit = "0.5.6"
